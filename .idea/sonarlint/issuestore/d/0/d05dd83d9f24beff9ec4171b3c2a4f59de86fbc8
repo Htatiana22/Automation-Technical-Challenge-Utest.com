@@ -1,0 +1,10 @@
+
+e
+java:S1128"CRemove this unused import 'net.serenitybdd.screenplay.Performable'.(ð”„Îüÿÿÿÿ8ÚñôÒ÷/
+e
+java:S1128"HRemove this unused import 'utestPageProject.userinterface.EnterAddress'.(ÌŽ§ó8ÚñôÒ÷/
+h
+java:S1128	"KRemove this unused import 'utestPageProject.userinterface.OptionJoinToday'.(ö¥çø8ÛñôÒ÷/
+L
+java:S1068"1Remove this unused "selectDevices" private field.(Š€Ñüýÿÿÿÿ
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ÏÑŸœ

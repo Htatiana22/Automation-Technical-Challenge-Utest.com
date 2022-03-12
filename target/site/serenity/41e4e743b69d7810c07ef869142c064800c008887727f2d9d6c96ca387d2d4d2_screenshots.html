@@ -1,0 +1,292 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>Screenshots</title>
+
+<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+<link rel="apple-touch-icon" sizes="57x57" href="apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192"  href="android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+<meta name="theme-color" content="#ffffff">
+<!--[if IE 7]>
+<!--<link rel="stylesheet" href="font-awesome/css/font-awesome-ie7.min.css">-->
+
+<link rel="stylesheet" type="text/css" href="fontawesome-free-5.7.2-web/css/all.min.css">
+<link rel="stylesheet" type="text/css" href="fontawesome-free-5.7.2-web/css/v4-shims.min.css">
+
+<!-- JQuery -->
+<script type="text/javascript" src="scripts/jquery-1.11.1.min.js"></script><link rel="stylesheet" type="text/css" href="chartist/chartist-plugin-tooltip/dist/chartist-plugin-tooltip.min.css">
+<link rel="stylesheet" type="text/css" href="chartist/dist/chartist.min.css">
+<script src="chartist/dist/chartist.min.js"></script>
+<script src="chartist/chartist-plugin-tooltip/dist/chartist-plugin-tooltip.min.js"></script>
+<!-- Required Stylesheets -->
+<link href="bootstrap-treeview/dist/bootstrap-treeview.min.css" rel="stylesheet">
+
+<!-- Required Javascript -->
+<script src="bootstrap-treeview/dist/bootstrap-treeview.min.js"></script><!-- DataTables -->
+<link type="text/css" href="datatables/1.10.19/datatables.min.css" rel="stylesheet" />
+<script type="text/javascript" src="datatables/1.10.19/datatables.min.js"></script>
+
+<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+<script src="bootstrap/js/bootstrap.min.js"></script>
+
+<script type="text/javascript" src="datatables/1.10.19/datatables.bootstrap4.min.js"></script>
+<link type="text/css" href="datatables/1.10.19/datatables.bootstrap4.min.css" rel="stylesheet" />
+<link rel="stylesheet" href="css/core.css"/>
+<link rel="stylesheet" href="css/link.css"/>
+<link type="text/css" media="screen" href="css/screen.css" rel="Stylesheet"/><!-- Nivo Slider -->
+<link rel="stylesheet" href="nivo-slider/3.2/nivo-slider.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="nivo-slider/3.2/themes/default/default.css" type="text/css" media="screen" />
+<script src="nivo-slider/3.2/jquery.nivo.slider.pack.js" type="text/javascript"></script>
+
+    <script type="text/javascript">
+
+        function getUrlVars() {
+            var vars = {};
+            var parts = window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi, function (m, key, value) {
+                vars[key] = value;
+            });
+            return vars;
+        }
+
+        var screenshotIndex = getUrlVars()["screenshot"];
+
+        $(window).load(function () {
+            $('#slider').nivoSlider({
+                startSlide: screenshotIndex,
+                effect: 'fade',
+                animSpeed: 200,
+                manualAdvance: true
+            });
+        });
+
+        $(window).keydown(function(e) {
+            switch(e.which) {
+                case 37:
+                    $('a.nivo-prevNav').click();
+                    break;
+                case 39:
+                    $('a.nivo-nextNav').click();
+                    break;
+            }
+        });
+    </script>
+
+</head>
+
+<body>
+<div id="topheader">
+    <div id="topbanner">
+        <div id="logo"><a href="index.html"><img src="images/serenity-logo.png" border="0"/></a></div>
+        <div id="projectname-banner" style="float:right">
+            <span class="projectname">
+                <span class="projecttitle">Demo Project using Serenity and Cucumber</span>
+                <span class="projectsubtitle"></span>
+            </span>
+        </div>
+    </div>
+</div>
+
+<div class="middlecontent">
+    <div id="contenttop">
+        <div class="middlebg">
+            <span class="breadcrumbs">
+                <a href="index.html">Home</a>
+                > <span class="truncate-40"><a
+                    href="14061cfc01d796d5653c3fa003cbe7901cd69b53df48ee41b90d91190d7eb0c7.html">Create A New User On The Page Utest.Com</a></span>
+                > <span class="truncate-60"><a
+                    href="41e4e743b69d7810c07ef869142c064800c008887727f2d9d6c96ca387d2d4d2.html">Verify successful registration </a></span>
+                > Screenshots
+            </span>
+        </div>
+        <div class="rightbg"></div>
+    </div>
+
+    <div class="clr"></div>
+
+    <!--/* starts second table*/-->
+<div>
+    <ul class="nav nav-tabs" role="tablist">
+        <li class="active">
+            <a href="#"><i class="fa fa-check-square-o"></i> Overall Test Results</a>
+        </li>
+        <li >
+            <a href="capabilities.html"><i class="fa fa-book"></i> Requirements</a>
+        </li>
+        <li >
+            <a href="576946480b52ad056d6f5bddf874399c83582ecf90963cc074a14c70580e7d9f.html"><i class="fa fa-comments-o"></i> Features</a>
+        </li>
+    </ul>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 11-03-2022 23:06</span>
+    <br style="clear:left"/>
+</div>
+
+    <div class="clr"></div>
+
+
+    <div id="contentbody">
+        <div class="titlebar">
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td>
+                            <div>
+                                <h3 class="discreet-story-header">
+                                    <i class="fa fa-2x fa-comments-o"></i>
+                                    <span class="story-header-title">Create A New User On The Page Utest.Com </span>
+                                    <span class="badge tag-badge" style="">Feature</span>
+                                </h3>
+
+                                <div class="discreet-requirement-narrative-title">
+                                As a user<br />
+Want to enter Utest page<br />
+To create a new user
+                                </div>
+                            </div>
+
+                        </td>
+                        <td valign="top" align="right">
+                            <p class="tag">
+                                <span class="badge tag-badge" style="background:default;"
+                                    <i class="fa fa-tag"></i>&nbsp;<a class="tagLink" style="background:default;" href="e4ef4831a220e0a9cbdbfec794f5c31b3fef2adf1cb8126df1cc35a6f525969c.html">Scenario1
+                                    (tag)</a>
+                                </span>
+                            </p>
+                            <p class="tag">
+                                <span class="badge tag-badge" style="background:default;"
+                                    <i class="fa fa-tag"></i>&nbsp;<a class="tagLink" style="background:default;" href="8e3b9bd5eba0a2d944ce7d2a73335e57289cd25f71e556e1618e946dc87d7ec9.html">Stories
+                                    (tag)</a>
+                                </span>
+                            </p>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td colspan="2" class="test-title-bar">
+                            <span class="outcome-icon"><a href='##beforetable'><i class='fa fa-check-circle-o success-icon fa-2x' title='SUCCESS'></i></a></span>
+                            <span class="test-case-title">
+                                <span class="success-color">Verify successful registration
+                                    <span class="related-issue-title"></span>
+                                </span>
+                            </span>
+
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <div class="clr"></div>
+
+
+    <div id="beforetable"></div>
+    <div id="contenttilttle">
+        <div class="slider-wrapper theme-default">
+            <div id="slider">
+                <img src="19b5cc742fe31ba74704b310b4d5ed299a5f565370e524e0324efff5a70e9f46.png" title=" Given User wants to register Utest page" width="1366"/>
+                <img src="19b5cc742fe31ba74704b310b4d5ed299a5f565370e524e0324efff5a70e9f46.png" title=" Herika open utest" width="1366"/>
+                <img src="19b5cc742fe31ba74704b310b4d5ed299a5f565370e524e0324efff5a70e9f46.png" title=" Herika opens the Utest page" width="1366"/>
+                <img src="19b5cc742fe31ba74704b310b4d5ed299a5f565370e524e0324efff5a70e9f46.png" title=" Herika open utest (completed)" width="1366"/>
+                <img src="19b5cc742fe31ba74704b310b4d5ed299a5f565370e524e0324efff5a70e9f46.png" title=" Given User wants to register Utest page (completed)" width="1366"/>
+                <img src="3db9a3d304e2da22b64e3e8416bfe652cc2713f91a4047343de5127332b967b3.png" title=" When User clicks Join Today button" width="1366"/>
+                <img src="3db9a3d304e2da22b64e3e8416bfe652cc2713f91a4047343de5127332b967b3.png" title=" Herika button join" width="1366"/>
+                <img src="3db9a3d304e2da22b64e3e8416bfe652cc2713f91a4047343de5127332b967b3.png" title=" Herika clicks on Click on the JoinToday button" width="1366"/>
+                <img src="3db9a3d304e2da22b64e3e8416bfe652cc2713f91a4047343de5127332b967b3.png" title=" Herika button join (completed)" width="1366"/>
+                <img src="13676fa1813d49e1d303cec13d83c8ed2ee89ab1cdb48c56736d71fa5240e0f0.png" title=" When User clicks Join Today button (completed)" width="1366"/>
+                <img src="4d72ec132de1053c5588bff502a5690ae346efd2072ba0246a1ca559c8251db0.png" title=" And User fills in form to create a user
+| strFirstName | strLastName | strEmail | strLanguages | strCity | strPostalCode | strCreatePassword | strConfirmPassword |
+| Tatiana | Pescador | tatiana.122@gmail.com | Spanish | Medellin | 179022 | Estranged*1031 | Estranged*1031 |" width="1366"/>
+                <img src="4d72ec132de1053c5588bff502a5690ae346efd2072ba0246a1ca559c8251db0.png" title=" Herika fill form you" width="1366"/>
+                <img src="4d72ec132de1053c5588bff502a5690ae346efd2072ba0246a1ca559c8251db0.png" title=" Herika clicks on Click on the name field" width="1366"/>
+                <img src="e3cfa6d0119670c36fc075cd899f2c5f4a752dea0f7cfb1a060d63f3883be351.png" title=" Herika enters 'Tatiana' into Enter the name" width="1366"/>
+                <img src="80c2c73f5b382ccae3d342b8b4b73ff452af81f8104c99c9a09b53788c3923d4.png" title=" Herika clicks on Click on the lastname field" width="1366"/>
+                <img src="180527d9d6c93b1b3d10087d29ec1b739a57d8e45db36bd9656778f2148ec04f.png" title=" Herika enters 'Pescador' into Enter the lastname" width="1366"/>
+                <img src="c49c76eaf3161b47f6e0503ec0b21d7b4fa771ce651921933988f3432b10841c.png" title=" Herika clicks on Click on the email field" width="1366"/>
+                <img src="2edaae7f30c076e815e93769922b9e724a6d05248174593c9813318285d796ff.png" title=" Herika enters 'tatiana.122@gmail.com' into Enter the email" width="1366"/>
+                <img src="9b5ab9294d33c2614279b40c4a3f52a9faca2c6eb6785933ce9c7ceb39ae4ae8.png" title=" Herika clicks on Click on the month field" width="1366"/>
+                <img src="4325569012883e9c2ce23c40009457ffb8227a6e56f47e5994b4ba133cc9e077.png" title=" Herika clicks on Select the month" width="1366"/>
+                <img src="a085de3c2a90513a03c80babbec075b9e401dc66945e774d908c5289693c2e56.png" title=" Herika clicks on Click on the day field" width="1366"/>
+                <img src="179afc93fd3fb16bb5d973062152dc4d677fa42e76ba64344d20817fa039cab7.png" title=" Herika clicks on Select the day" width="1366"/>
+                <img src="4119c22d0b6e4c6878ce4b81c76f286207866c1a6666b9ea98b17c568e1b9f06.png" title=" Herika clicks on Click on the year field" width="1366"/>
+                <img src="60afe49c35256499361eb3bf4ae16bcf63bd3dce2f3b1defa5b0152d09f3dea6.png" title=" Herika clicks on Select the year" width="1366"/>
+                <img src="b76a563fbf8e5a986ccc39642359971deed82a4aa437777b09fa5283592a81e6.png" title=" Herika clicks on Click on select language" width="1366"/>
+                <img src="d7748199d90d80735d17cf07f86e5a64498466ac9d6a8b4cf3ebb569f4b06f87.png" title=" Herika enters 'Spanish' into Select a language" width="1366"/>
+                <img src="6f61da7f4ba7251d1ed4686b52dc66725d8ab9c0d1497b86dffb3c57a636011d.png" title=" Herika clicks on Click on button Next Location" width="1366"/>
+                <img src="6f61da7f4ba7251d1ed4686b52dc66725d8ab9c0d1497b86dffb3c57a636011d.png" title=" Herika fill form you (completed)" width="1366"/>
+                <img src="b970e57217808ce911779eb1d8ff39da9648664264e2ae5f96851fae3ee1cb82.png" title=" Herika fill address form" width="1366"/>
+                <img src="b970e57217808ce911779eb1d8ff39da9648664264e2ae5f96851fae3ee1cb82.png" title=" Herika clicks on Click on the city field" width="1366"/>
+                <img src="94122700c7cc2280fb8714cc8615b7699a63eaa4c49b4cc2cf09bff533d2f3ea.png" title=" Herika types 'CLEAR' in Write the name of the city" width="1366"/>
+                <img src="424a4f1d3c6269ca736733a096a5fe737b49f8e608de45d419219d09fae731cc.png" title=" Herika enters 'Medellin' into Write the name of the city" width="1366"/>
+                <img src="74d3884b81bc11450b0e20a2cd4acdd00034b1ff37a02ff461a38619ebf23abc.png" title=" Herika types 'ARROW_DOWN' in Write the name of the city" width="1366"/>
+                <img src="af2c9d7f5bfddce1a768ed52d3ce8187f5b44519fb7237bac0b4c105ea47752a.png" title=" Herika types 'ENTER' in Write the name of the city" width="1366"/>
+                <img src="cccb9d0846ebca99e3ea3e182b59e9b09534763cb68fe92fd92f988889d5c4b4.png" title=" Herika clicks on Clickc on the zip code field" width="1366"/>
+                <img src="cb13216c1729734667a0fb0ddb73ec544152187d000d5091092d41e4e3193439.png" title=" Herika enters '179022' into Write the postal number" width="1366"/>
+                <img src="a007c1d77780b34d658bf39b4dff880c04a9b17f907210124bf9763bbd07189b.png" title=" Herika clicks on Click on the country field" width="1366"/>
+                <img src="9d452cc9534786bcaea55405b4736ae976c6c7aec46c59325ea17fb365496abe.png" title=" Herika clicks on Select the country" width="1366"/>
+                <img src="f0fbf0853c5b515f145c1197eb050572edb4962c6f472f3fd2561a03eb4e5f26.png" title=" Herika clicks on Click on the button Next Devices" width="1366"/>
+                <img src="f0fbf0853c5b515f145c1197eb050572edb4962c6f472f3fd2561a03eb4e5f26.png" title=" Herika fill address form (completed)" width="1366"/>
+                <img src="93f0b0f971aec4c41f6b29cac02fd642bb6aced13235a978ea255b63d2c955f0.png" title=" Herika fill device form" width="1366"/>
+                <img src="93f0b0f971aec4c41f6b29cac02fd642bb6aced13235a978ea255b63d2c955f0.png" title=" Herika clicks on Click on the your computer field" width="1366"/>
+                <img src="7551bae3f608354f8296b7d5553ec80628c3e5bd8d6eb7dc99b1d543a014cc2d.png" title=" Herika clicks on Select computer" width="1366"/>
+                <img src="8a5b6a4718d3e8f366e7620151b0fa15b2565c43422256de76303d865f3c7e2e.png" title=" Herika clicks on Click on the version field" width="1366"/>
+                <img src="c62571cb03944b5ed0df816a6b5cfd3635096405befeadd8efb82a9d88fc7ee2.png" title=" Herika clicks on Select version" width="1366"/>
+                <img src="b1bc8aa81ca7eb643e2959011bd8f87c77f37c0262e676ce07ee277bb8020155.png" title=" Herika clicks on Click on the Language field" width="1366"/>
+                <img src="8242a6bf2ee0355f402ba6fc254d3305f15d01ae0bac0e998d14c1211426da1d.png" title=" Herika clicks on Select language" width="1366"/>
+                <img src="fbf3e6b629c6715ac08561309fcef4c39edb037e5f664510872fd2a0df134c24.png" title=" Herika clicks on Click on the your mobile device field" width="1366"/>
+                <img src="26e244ab0205738f0a0acef338633595112ca047c8567895e6057a562ce32cd6.png" title=" Herika clicks on Select mobile device" width="1366"/>
+                <img src="e5e0ca777bb96bfe5700660e5c195a92bcb9148c6dd4c8fb37cad58b19249b2e.png" title=" Herika clicks on Click on the model field" width="1366"/>
+                <img src="5adb176a7aa9cf88e7eb369dea21610aaa9525f7c96861d65a1ffbd8a3971abf.png" title=" Herika clicks on Select model" width="1366"/>
+                <img src="4973eb94b45bfdb9160b8e9c9ed70eee5d3f3e975fee5f0dd4dfcd877220e78d.png" title=" Herika clicks on Click on the operating system field" width="1366"/>
+                <img src="f0dc7df9b0504fffd008e8eec1433e797629e342e46d02c836e8a4645607f204.png" title=" Herika clicks on Select operating system" width="1366"/>
+                <img src="99f0bea6470059fb4adb7abfb2323cab3c61b9ca9f11b35b23adf3b80323c8a1.png" title=" Herika clicks on Click on the button Next Last Step" width="1366"/>
+                <img src="99f0bea6470059fb4adb7abfb2323cab3c61b9ca9f11b35b23adf3b80323c8a1.png" title=" Herika fill device form (completed)" width="1366"/>
+                <img src="5fd42031fc648a3c352b9fbbe5ccf4c72bffd1a2798b1792551695c9678ade9b.png" title=" Herika fill last data" width="1366"/>
+                <img src="5fd42031fc648a3c352b9fbbe5ccf4c72bffd1a2798b1792551695c9678ade9b.png" title=" Herika clicks on Click on the create password field" width="1366"/>
+                <img src="b8b0ba69c2e2cc3fbb508a1cd192f4fbe0d5af168092dad035785e3619ffc73d.png" title=" Herika enters 'Estranged*1031' into Write password" width="1366"/>
+                <img src="a66325da31743aadc875845e5c162dff90de31060fb66ead85e34dd3c41e3945.png" title=" Herika clicks on Click on the confirm password field" width="1366"/>
+                <img src="35beb085d5ba700ca7288554907350f8430f59d57042ea70438f33a8b03acd84.png" title=" Herika enters 'Estranged*1031' into Retype password" width="1366"/>
+                <img src="b8ccd8f0a580e49b910486cbdfe9e5948a94d051936bc674ea6b78a5548d7d48.png" title=" Herika clicks on Click accept user terms" width="1366"/>
+                <img src="8cad39fedd2a8371c1f78ab5b4a60287d2c1c9b71279a9b9fafe091c1da4304b.png" title=" Herika clicks on Click accept privacy and security policies" width="1366"/>
+                <img src="301ebde8193cb1b1e0369226ebf8abc56a1dda6e0dc5a5a54f489d061d1b8a56.png" title=" Herika clicks on Click on the button Complete Setup" width="1366"/>
+                <img src="301ebde8193cb1b1e0369226ebf8abc56a1dda6e0dc5a5a54f489d061d1b8a56.png" title=" Herika fill last data (completed)" width="1366"/>
+                <img src="f9096d1484f944b186c1f64007f51df9243df6befcdc7778e78fd93f88657597.png" title=" And User fills in form to create a user
+| strFirstName | strLastName | strEmail | strLanguages | strCity | strPostalCode | strCreatePassword | strConfirmPassword |
+| Tatiana | Pescador | tatiana.122@gmail.com | Spanish | Medellin | 179022 | Estranged*1031 | Estranged*1031 | (completed)" width="1366"/>
+                <img src="9eae708bef0575bf3daa8c75ae02bc22ffb0d037873a1b674f585d31576d7b0f.png" title=" Then User verifies successful registration
+| strVerifySuccessfulRegistration |
+| The last step |" width="1366"/>
+                <img src="9eae708bef0575bf3daa8c75ae02bc22ffb0d037873a1b674f585d31576d7b0f.png" title=" Then answer" width="1366"/>
+                <img src="9eae708bef0575bf3daa8c75ae02bc22ffb0d037873a1b674f585d31576d7b0f.png" title=" Then User verifies successful registration
+| strVerifySuccessfulRegistration |
+| The last step | (completed): <span class='success-color'>SUCCESS</span>" width="1366"/>
+            </div>
+        </div>
+
+
+    </div>
+</div>
+<div id="beforefooter"></div>
+<div id="bottomfooter">
+    <span class="version">Serenity BDD version 2.0.90</span>
+</div>
+</body>
+</html>
